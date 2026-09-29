@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobrecarga & Esgotamento - Organizador de Rotinas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #183354, var(--bg-card));
+            border: 2px solid rgba(0, 210, 255, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .btn-voltar {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--blue-cyan);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 25px;
+            transition: color 0.2s;
+        }
+        .btn-voltar:hover { color: var(--blue-light); }
+        .article-title {
+            font-size: 2rem;
+            color: var(--blue-light);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .article-content h2 {
+            color: var(--blue-cyan);
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .article-content p, .article-content li {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+        .article-content ul { padding-left: 20px; }
+        .highlight-box {
+            background: rgba(0, 139, 255, 0.15);
+            border-left: 4px solid var(--blue-cyan);
+            padding: 15px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <a href="index.html" class="btn-voltar"><i class="fa-solid fa-arrow-left"></i> Voltar ao Painel</a>
+        
+        <h1 class="article-title">
+            <i class="fa-solid fa-brain" style="color: var(--blue-cyan);"></i>
+            Sobrecarga & Esgotamento Mental
+        </h1>
+
+        <div class="article-content">
+            <p>O acúmulo de conteúdos e a sensação constante de estar atrás do prejuízo geram uma carga cognitiva insustentável. Essa paralisia por análise acontece quando há tanta coisa a fazer que não se consegue escolher por onde começar.</p>
+
+            <h2>Gestão da Carga Cognitiva</h2>
+            <p>O cérebro tem uma capacidade limitada de processar informações ativas no mesmo dia. Forçar horas seguidas sem intervalos de recuperação reduz a capacidade de absorção e leva ao esgotamento mental (Burnout acadêmico).</p>
+
+            <div class="highlight-box">
+                <p><strong>Decomposição em Micro-Tarefas:</strong> Divida "Estudar Matemática" em ações minúsculas e realizáveis, como "Resolver 5 exercícios da página 12". A sensação de progresso gera dopamina e combate a paralisia.</p>
+            </div>
+
+            <h2>Passos para Reduzir o Peso Mental</h2>
+            <ul>
+                <li><strong>Matriz de Prioridade:</strong> Classifique as matérias em urgente/importante e foque nas pendências de maior peso imediato.</li>
+                <li><strong>Descarrego Mental:</strong> Escreva tudo o que precisa ser feito em uma folha. Tirar as pendências da mente reduz visivelmente a ansiedade.</li>
+                <li><strong>Aceitação Estratégica:</strong> Reconheça que não é possível saber tudo perfeitamente de uma só vez; foque no progresso diário consistente.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

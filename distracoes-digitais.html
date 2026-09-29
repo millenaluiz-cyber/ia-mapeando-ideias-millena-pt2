@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distrações Digitais - Organizador de Rotinas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #183354, var(--bg-card));
+            border: 2px solid rgba(0, 210, 255, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .btn-voltar {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--blue-cyan);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 25px;
+            transition: color 0.2s;
+        }
+        .btn-voltar:hover { color: var(--blue-light); }
+        .article-title {
+            font-size: 2rem;
+            color: var(--blue-light);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .article-content h2 {
+            color: var(--blue-cyan);
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .article-content p, .article-content li {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+        .article-content ul { padding-left: 20px; }
+        .highlight-box {
+            background: rgba(0, 139, 255, 0.15);
+            border-left: 4px solid var(--blue-cyan);
+            padding: 15px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <a href="index.html" class="btn-voltar"><i class="fa-solid fa-arrow-left"></i> Voltar ao Painel</a>
+        
+        <h1 class="article-title">
+            <i class="fa-solid fa-mobile-screen-button" style="color: var(--blue-cyan);"></i>
+            Distrações Digitais e Foco Profundo
+        </h1>
+
+        <div class="article-content">
+            <p>Vivemos na economia da atenção, onde aplicativos são projetados para capturar nosso foco através de descargas intermitentes de dopamina. Cada notificação é uma interrupção que consome energia mental.</p>
+
+            <h2>O Custo de Alternância de Atenção</h2>
+            <p>Estudos indicam que leva-se em média 20 minutos para recuperar o estado de foco total ("Deep Work") após uma simples checada de notificação no celular. Isso significa que estudar com o celular ao lado triplica o tempo necessário para absorver a matéria.</p>
+
+            <div class="highlight-box">
+                <p><strong>A Tática do Celular em Outro Cômodo:</strong> Colocar o telefone em outro ambiente durante o bloco de estudos reduz a tentação inconsciente de pegá-lo.</p>
+            </div>
+
+            <h2>Ações Práticas para Blindar seu Foco</h2>
+            <ul>
+                <li><strong>Modo Não Perturbe / Foco:</strong> Programe perfis de bloqueio no celular durante os horários previstos na rotina.</li>
+                <li><strong>Uso de Bloqueadores Web:</strong> Utilize extensões de navegador (como Forest ou StayFocusd) para restringir sites de redes sociais durante a sessão de estudos.</li>
+                <li><strong>Bloco de "Anotação de Intrusão":</strong> Mantenha um bloco de papel ao lado para anotar ideias ou pendências que surgirem na cabeça, deixando para pesquisá-las apenas no intervalo.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

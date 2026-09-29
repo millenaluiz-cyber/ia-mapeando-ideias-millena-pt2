@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Falta de Cronograma Claro - Organizador de Rotinas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #183354, var(--bg-card));
+            border: 2px solid rgba(0, 210, 255, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .btn-voltar {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--blue-cyan);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 25px;
+            transition: color 0.2s;
+        }
+        .btn-voltar:hover { color: var(--blue-light); }
+        .article-title {
+            font-size: 2rem;
+            color: var(--blue-light);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .article-content h2 {
+            color: var(--blue-cyan);
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .article-content p, .article-content li {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+        .article-content ul { padding-left: 20px; }
+        .highlight-box {
+            background: rgba(0, 139, 255, 0.15);
+            border-left: 4px solid var(--blue-cyan);
+            padding: 15px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <a href="index.html" class="btn-voltar"><i class="fa-solid fa-arrow-left"></i> Voltar ao Painel</a>
+        
+        <h1 class="article-title">
+            <i class="fa-solid fa-calendar-xmark" style="color: var(--blue-cyan);"></i>
+            Falta de Cronograma e Estrutura
+        </h1>
+
+        <div class="article-content">
+            <p>Sentar para estudar sem ter um plano pré-determinado consome energia mental que deveria ser usada na aprendizagem. O tempo gasto decidindo qual matéria abrir é um convite para a procrastinação.</p>
+
+            <h2>A Importância do Planejamento Antecipado</h2>
+            <p>Um bom cronograma elimina a incerteza. Ele transforma intenções vagas ("preciso estudar essa semana") em metas concretas e mensuráveis ("terça-feira, às 14h: ler o capítulo 3 de História").</p>
+
+            <div class="highlight-box">
+                <p><strong>Ciclos de Estudo vs. Horários Fixos:</strong> Em vez de se prender a horários engessados do relógio, organize um ciclo sequencial de matérias. Se a rotina mudar, você simplesmente continua de onde parou no ciclo.</p>
+            </div>
+
+            <h2>Como Estruturar um Cronograma Eficiente</h2>
+            <ul>
+                <li><strong>Distribuição por Peso/Dificuldade:</strong> Dedique mais tempo às disciplinas de maior dificuldade ou relevância para seu objetivo.</li>
+                <li><strong>Inclusão de Margens de Segurança:</strong> Deixe blocos livres na semana para cobrir imprevistos e conteúdos atrasados sem desorganizar toda a agenda.</li>
+                <li><strong>Checklists Diários:</strong> Acompanhe as metas cumpridas diariamente para ter clareza visual de evolução.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

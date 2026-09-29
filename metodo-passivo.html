@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Método Passivo Ineficiente - Organizador de Rotinas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #183354, var(--bg-card));
+            border: 2px solid rgba(0, 210, 255, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .btn-voltar {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--blue-cyan);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 25px;
+            transition: color 0.2s;
+        }
+        .btn-voltar:hover { color: var(--blue-light); }
+        .article-title {
+            font-size: 2rem;
+            color: var(--blue-light);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .article-content h2 {
+            color: var(--blue-cyan);
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .article-content p, .article-content li {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+        .article-content ul { padding-left: 20px; }
+        .highlight-box {
+            background: rgba(0, 139, 255, 0.15);
+            border-left: 4px solid var(--blue-cyan);
+            padding: 15px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <a href="index.html" class="btn-voltar"><i class="fa-solid fa-arrow-left"></i> Voltar ao Painel</a>
+        
+        <h1 class="article-title">
+            <i class="fa-solid fa-note-sticky" style="color: var(--blue-cyan);"></i>
+            Superando o Método Passivo de Estudo
+        </h1>
+
+        <div class="article-content">
+            <p>Ler passivamente e grifar textos traz a falsa sensação de aprendizado, conhecida como "ilusão de competência". O cérebro reconhece o texto ao ler, mas isso não significa que ele consegue recuperar essa informação sozinho na hora da prova.</p>
+
+            <h2>Estudo Ativo vs. Estudo Passivo</h2>
+            <p>A verdadeira aprendizagem ocorre quando forçamos o cérebro a resgatar a informação sem olhar o material. Quanto mais esforço o cérebro faz para lembrar de algo, mais forte se torna essa conexão neural.</p>
+
+            <div class="highlight-box">
+                <p><strong>Recall Ativo (Active Recall):</strong> Após ler um trecho, feche o livro e tente explicar o que acabou de aprender em suas próprias palavras ou escreva em uma folha em branco.</p>
+            </div>
+
+            <h2>Técnicas de Alto Rendimento</h2>
+            <ul>
+                <li><strong>Flashcards & Repetição Espaçada:</strong> Utilize cartões de perguntas e respostas para testar sua memória em intervalos crescentes.</li>
+                <li><strong>Resolução Prática de Questões:</strong> Aplique o conteúdo imediatamente em exercícios para identificar lacunas de conhecimento.</li>
+                <li><strong>Técnica Feynman:</strong> Explique o conteúdo como se estivesse ensinando para alguém leigo no assunto. Se encontrar dificuldades na explicação, revise aquele ponto específico.</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

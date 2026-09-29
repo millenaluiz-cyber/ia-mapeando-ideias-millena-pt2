@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procrastinação e Adiamento - Organizador de Rotinas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .page-container {
+            max-width: 900px;
+            width: 100%;
+            background: linear-gradient(145deg, #183354, var(--bg-card));
+            border: 2px solid rgba(0, 210, 255, 0.3);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+        .btn-voltar {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            color: var(--blue-cyan);
+            text-decoration: none;
+            font-weight: 600;
+            margin-bottom: 25px;
+            transition: color 0.2s;
+        }
+        .btn-voltar:hover { color: var(--blue-light); }
+        .article-title {
+            font-size: 2rem;
+            color: var(--blue-light);
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .article-content h2 {
+            color: var(--blue-cyan);
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        .article-content p, .article-content li {
+            color: var(--text-muted);
+            line-height: 1.7;
+            font-size: 1rem;
+            margin-bottom: 12px;
+        }
+        .article-content ul { padding-left: 20px; }
+        .highlight-box {
+            background: rgba(0, 139, 255, 0.15);
+            border-left: 4px solid var(--blue-cyan);
+            padding: 15px 20px;
+            border-radius: 0 10px 10px 0;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <a href="index.html" class="btn-voltar"><i class="fa-solid fa-arrow-left"></i> Voltar ao Painel</a>
+        
+        <h1 class="article-title">
+            <i class="fa-solid fa-hourglass-half" style="color: var(--blue-cyan);"></i>
+            Procrastinação e Adiamento
+        </h1>
+
+        <div class="article-content">
+            <p>A procrastinação raramente é um problema de preguiça ou falta de caráter; na maioria das vezes, trata-se de um mecanismo de defesa psicológico para evitar sentimentos desconfortáveis como ansiedade, medo de falhar ou perfeccionismo.</p>
+
+            <h2>A Raiz da Procrastinação nos Estudos</h2>
+            <p>Quando nos deparamos com uma tarefa complexa ou extensa, o cérebro interpreta essa atividade como uma ameaça à sua zona de conforto. Em resposta, busca alívio imediato voltando a atenção para atividades de recompensa rápida, como redes sociais ou tarefas secundárias irrelevantes.</p>
+
+            <div class="highlight-box">
+                <p><strong>A Regra dos 5 Minutos:</strong> Diga a si mesmo que irá estudar por apenas 5 minutos. A maior barreira é o momento da transição (início). Após romper essa resistência, o cérebro entra no fluxo e tende a continuar.</p>
+            </div>
+
+            <h2>Estratégias Práticas de Combate</h2>
+            <ul>
+                <li><strong>Técnica Pomodoro:</strong> Trabalhe em blocos focados de 25 minutos seguidos por 5 minutos de descanso total.</li>
+                <li><strong>Redução da Fricção de Início:</strong> Deixe o material de estudo organizado na véspera. Quanto menor o número de cliques ou ações para começar, menor será a chance de procrastinar.</li>
+                <li><strong>Foco na Tarefa, Não no Resultado:</strong> Em vez de focar em "terminar a apostila", estabeleça como meta apenas "estudar por 30 minutos concentrados".</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
